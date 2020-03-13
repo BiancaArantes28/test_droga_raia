@@ -1,0 +1,22 @@
+body {
+  background: url(assets/imgs/background.jpg);
+  color: #868686;
+  font-family: "Open Sans", Helvetica, sans-serif, arial;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.2222222222em;
+  text-align: left;
+  text-shadow: 1px 1px 0px #fff;
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 100%;
+    margin: 0;
+    max-width: 1200px;
+  }
+}
